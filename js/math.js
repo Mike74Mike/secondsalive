@@ -10,3 +10,4 @@ console.log(`There are ${secsPerDay} seconds in a day.`);
 const yearAlive = 22;
 const secsAlive = secsPerMin * minsPerHour * hoursPerDay * daysPerWeek * weeksPerYear * yearAlive;  
 console.log(`I have been alive for ${secsAlive} seconds`); 
+document.write(`<h1>I have been alive for ${secsAlive} seconds</h1>`);
